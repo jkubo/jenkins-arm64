@@ -1,4 +1,5 @@
 master:
+  restart: always
   build: .
   environment:
     JAVA_OPTS: "-Djava.awt.headless=true"
